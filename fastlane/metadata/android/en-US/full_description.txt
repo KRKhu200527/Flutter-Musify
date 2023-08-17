@@ -1,0 +1,13 @@
+<i>Musify</i> is an app for streaming, downloading and playing  music. Its features include:
+
+* Online Song Search With Suggestions
+* Streaming Support
+* Download Support
+* Import & Export Your Data And Never Lose It
+* Add Custom Playlists With Link
+* Play Local / Downloaded Songs Support
+* High Quality mp3 / m4a / flac Format
+* No Ads
+* No Subscriptions
+* 18 Supported Languages
+* Material UI & Accent Colors & Dynamic Colors (Android 12+)

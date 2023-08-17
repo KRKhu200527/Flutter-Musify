@@ -1,0 +1,80 @@
+name: musify
+description: Music Streaming and Downloading app made in Flutter!
+homepage: https://github.com/gokadzev/Musify
+repository: https://github.com/gokadzev/Musify
+issue_tracker: https://github.com/gokadzev/Musify/issues
+
+publish_to: 'none'
+version: 6.2.0+61 # run update.sh after changing the version
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ^3.10.6
+
+dependencies:
+  audio_service:
+    path: ./packages/audio_service/audio_service
+  audio_session: ^0.1.16
+  background_downloader: ^7.9.1
+  cached_network_image: ^3.2.3
+  dynamic_color: ^1.6.6
+  file_picker: ^5.3.3
+  fluentui_system_icons: ^1.1.210
+  flutter:
+    sdk: flutter
+  flutter_displaymode: ^0.6.0
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  intl: ^0.18.0
+  just_audio: ^0.9.34
+  on_audio_query:
+    path: ./packages/on_audio_query/on_audio_query
+  path: ^1.8.3
+  path_provider: ^2.1.0
+  permission_handler: ^10.4.3
+  receive_sharing_intent:
+    path: ./packages/receive_sharing_intent
+  rxdart: ^0.27.7
+  url_launcher: ^6.1.12
+  youtube_explode_dart: ^2.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+  flutter_test:
+    sdk: flutter
+
+  # flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/db/playlists.db.json
+    - assets/fonts/roboto/
+    - assets/fonts/paytone/
+
+flutter_native_splash:
+  color: '#ffffff'
+  image: assets/images/splash.png
+  color_dark: '#151515'
+  image_dark: assets/images/splash.png
+
+  android_12:
+    image: assets/images/splash.png
+    icon_background_color: '#ffffff'
+    image_dark: assets/images/splash.png
+    icon_background_color_dark: '#151515'
+
+flutter_icons:
+  android: 'launcher_icon'
+  adaptive_icon_background: '#191919'
+  adaptive_icon_foreground: 'assets/images/ic_launcher_foreground.png'
+  adaptive_icon_round: 'assets/images/ic_launcher_round.png'
+  image_path: 'assets/images/ic_launcher.png'
