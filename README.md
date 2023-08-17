@@ -1,20 +1,3 @@
-<p align="center">
-    <img src="https://github.com/gokadzev/Musify/raw/master/assets/images/Musify-banner.png" width="100%">
-</p>
-
-<p align="center">
-    Unlock Music's Full Potential: Stream, Download, and Play with Ease, All in One App!
-</p>
-
-<p align="center">
- <p align="center">
-    <a href="https://github.com/gokadzev/Musify/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/gokadzev/Musify?style=flat-square&color=D3BEAB"/></a>
-    <a href="https://github.com/gokadzev/Musify/fork"><img alt="Forks" src="https://img.shields.io/github/forks/gokadzev/Musify?style=flat-square&color=D3BEAB"/></a>
-    <a href="https://github.com/gokadzev/Musify/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/gokadzev/Musify?color=D3BEAB"/></a>
-    <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/gokadzev/Musify?color=D3BEAB"/></a>
- </p>
-</p>
-
 <h3 align="center">Don't forget to :star: the repository</h3>
 
 ---
@@ -63,35 +46,6 @@
 
 
 ---
-
-<h3 align="center">Screenshots :camera:</h3>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img width="100%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg" alt="screenshot 1">
-      </td>
-      <td align="center">
-        <img width="100%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg" alt="screenshot 2">
-      </td>
-      <td align="center">
-        <img width="100%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg" alt="screenshot 3">
-      </td>
-      <td align="center">
-        <img width="100%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg" alt="screenshot 4">
-      </td>
-    </tr>
-  </table>
-</div>
-
-
----
-
-  <h3 align="center">Download :floppy_disk:</h3>
-     <p align="center" style="align-items:center"><a href="https://github.com/gokadzev/Musify/releases" rel="GitHub Releases"><img width="250" src="https://github.com/gokadzev/Musify/raw/master/assets/images/get-it-on-github.png"></a><a href="https://f-droid.org/packages/com.gokadzev.musify.fdroid/" rel="F-Droid"><img width="250" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"></a><a href="https://apt.izzysoft.de/fdroid/index/apk/com.gokadzev.musify" rel="IzzySoft"><img width="250" src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"></a></p>
-
-
 ---
 
 <h3 align="center">License :scroll:</h3>
@@ -121,52 +75,13 @@ how to obtain the original software, should clearly STATE ALL CHANGES made and s
 Use of this software under any "non-free" license is NOT permitted.
 ```
 
-See the [GNU General Public License](https://github.com/gokadzev/Musify/blob/master/LICENSE) for more details.
-
----
-
 <h3 align="center">Building from source :hammer_and_wrench:</h3>
 
 1. If you don't have Flutter SDK installed, please visit official [Flutter](https://flutter.dev/) site.
 2. Fetch latest source code from master branch.
-
-```
-git clone https://github.com/gokadzev/Musify.git
-```
-
 3. Run the app with Android Studio or VS Code. Or the command line:
 
 ```
 flutter pub get
 flutter run --flavor github
 ```
-
----
-
-<h3 align="center">Contribute :pencil2:</h3>
-
-Contributions are always welcome. Please read our [contributing guidelines](https://github.com/gokadzev/Musify/blob/master/CONTRIBUTING.md) before contributing.
-
-
----
-
-<h3 align="center">F.A.Q :question: </h3>
-
-You can see frequently asked questions and their answers [here](https://github.com/gokadzev/Musify/discussions/112).
-
-
----
-
-<h3 align="center">Credits :pushpin:	</h3>
-
-- [Musify](https://github.com/Harsh-23/Musify): Original inspiration for the concept and app name, while our implementation took a different direction with a complete rewrite, a rebranded logo, and a redesigned layout and UI.
-
----
-
-<h3 align="center">Do you like the project? Sponsor it! :heartpulse:	</h3>
-
-<div align="center">
-  <a href="https://ko-fi.com/gokadzev">
-    <img width="32%" src="https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png" alt="ko-fi">
-  </a>
-</div>
